@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-boot-failure-recovery"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS boot-failure-recovery component - boot"
+
+[lib]
+name = "boot_failure_recovery"
+path = "src/lib.rs"
